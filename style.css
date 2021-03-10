@@ -1,7 +1,9 @@
 
-@fontface {
-  font-family: 'MyWebFont';
-  src: url('SeventyTwo-Pixel.otf'); 
+@font-face {
+  font-family: 'SeventyTwo-Pixel';
+  font-style: normal;
+  font-weight: normal;
+  src: url('https://github.com/areumhwang2021/areumhwang2021.github.io/blob/a46a54fc1b4d15615a570845707a5a53bbf73acc/SeventyTwo-Pixel.otf') format('opentype'); 
 }
 
 html{
@@ -44,7 +46,7 @@ body{
   margin-right: 185px;
 
   text-decoration: none;
-  font-family: "MyWebFont";
+  font-family: "SeventyTwo-Pixel";
   font-size: 13px;
   text-align: center;
 }
@@ -78,7 +80,7 @@ span{
   color: white;
   text-align: center;
 
-  font-family: "MyWebFont";
+  font-family: "SeventyTwo-Pixel";
   font-weight: lighter;
   font-size: 30px;
   letter-spacing: -1px;
