@@ -27,7 +27,7 @@ body{
 }
 
 
-@header{
+#header{
     overflow: hidden;
     background-color: white;
     position: fixed !important;
@@ -37,7 +37,7 @@ body{
 }
 
 
-@header a{
+#header a{
   float: left;
   display: block;
   color: black;
@@ -51,7 +51,7 @@ body{
   text-align: center;
 }
 
-@header a:hover{
+#header a:hover{
   text-decoration: underline;
 }
 
