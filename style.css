@@ -1,3 +1,9 @@
+
+@fontface {
+  font-family: SeventyTwo-Pixel;
+  src:url('SeventyTwo-Pixel.otf'); format(SeventyTwo-Pixel);
+}
+
 html{
   overflow: scroll;
   overflow-x: hidden;
