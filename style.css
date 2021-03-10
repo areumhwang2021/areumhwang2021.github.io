@@ -1,7 +1,7 @@
 
 @fontface {
-  font-family: SeventyTwo-Pixel;
-  src:url('SeventyTwo-Pixel.otf'); format(SeventyTwo-Pixel);
+  font-family: 'MyWebFont';
+  src: url('SeventyTwo-Pixel.otf'); 
 }
 
 html{
@@ -44,8 +44,7 @@ body{
   margin-right: 185px;
 
   text-decoration: none;
-  font-family: "SeventyTwo-Pixel";
-  /* font-weight: bold; */
+  font-family: "MyWebFont";
   font-size: 13px;
   text-align: center;
 }
@@ -79,7 +78,7 @@ span{
   color: white;
   text-align: center;
 
-  font-family: "SeventyTwo-Pixel";
+  font-family: "MyWebFont";
   font-weight: lighter;
   font-size: 30px;
   letter-spacing: -1px;
