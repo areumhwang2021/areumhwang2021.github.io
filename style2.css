@@ -1,0 +1,58 @@
+
+
+body{
+  background-image: url("back_img55.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+#header{
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+#header a{
+  float: left;
+  display: block;
+  color: black;
+  padding: 10px;
+  margin-left: 185px;
+  margin-right: 185px;
+
+  text-decoration: none;
+  font-family: "SeventyTwo-Pixel";
+  font-size: 13px;
+  text-align: center;
+}
+
+#header a:hover{
+  text-decoration: underline;
+}
+
+
+p {
+  margin-top: 60px;
+  margin-left: 100px;
+  margin-right: 200px;
+
+  font-family: helvetica;
+  font-size: 22px;
+  word-spacing: -2.8px;
+  transform: scaleY(1.2);
+
+  color: black;
+  text-shadow: 1px 1px 20px blue;
+
+}
+
+.previously{
+  font-family: helvetica;
+  font-size: 16px;
+  word-spacing: -2.8px;
+  transform: scaleY(1.2);
+}
