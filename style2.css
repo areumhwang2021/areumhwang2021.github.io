@@ -31,22 +31,23 @@ body{
 }
 
 #header a:hover{
-  text-decoration: underline;
+  color: white;
+  text-shadow: 1px 1px 10px black;
 }
 
 
 p {
   margin-top: 60px;
-  margin-left: 100px;
-  margin-right: 200px;
+  margin-left: 220px;
+  margin-right: 230px;
 
   font-family: helvetica;
   font-size: 22px;
   word-spacing: -2.8px;
   transform: scaleY(1.2);
 
-  color: black;
-  text-shadow: 1px 1px 20px blue;
+  color: white;
+  text-shadow: 1px 1px 20px black;
 
 }
 
