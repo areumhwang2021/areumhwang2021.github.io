@@ -61,6 +61,7 @@ body{
   word-spacing: -2.8px;
   transform: scaleY(1.2);
   text-shadow: 1px 1px 20px pink;
+  color: black;
 }
 
 
@@ -69,8 +70,8 @@ body{
   margin-left: 220px;
   margin-right: 230px;
 
-  margin-top: -50px;
   color: black;
+  font-family: helvetica;
   font-size: 18px;
   text-shadow: 1px 1px 20px pink;
 }
