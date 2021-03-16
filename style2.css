@@ -21,8 +21,8 @@ body{
   display: block;
   color: black;
   padding: 10px;
-  margin-left: 185px;
-  margin-right: 185px;
+  margin-left: 170px;
+  margin-right: 165px;
 
   text-decoration: none;
   font-family: "SeventyTwo-Pixel";
@@ -36,8 +36,7 @@ body{
 }
 
 
-p {
-  margin-top: 60px;
+.introduce {
   margin-left: 220px;
   margin-right: 230px;
 
@@ -46,14 +45,47 @@ p {
   word-spacing: -2.8px;
   transform: scaleY(1.2);
 
-  color: white;
+  color: black;
   text-shadow: 1px 1px 20px black;
 
 }
 
-.previously{
+.info{
+  margin-top: 100px;
+  margin-left: 220px;
+  margin-right: 230px;
+
+  margin-top: 100px;
   font-family: helvetica;
-  font-size: 16px;
+  font-size: 18px;
   word-spacing: -2.8px;
   transform: scaleY(1.2);
+  text-shadow: 1px 1px 20px pink;
+}
+
+
+.contact{
+  margin-top: 100px;
+  margin-left: 220px;
+  margin-right: 230px;
+
+  margin-top: -50px;
+  color: black;
+  font-size: 18px;
+  text-shadow: 1px 1px 20px pink;
+}
+
+
+/* <!-- index3 --> */
+
+img{
+  width: 280px;
+  height: auto;
+
+  transition:transform 0.25s ease;
+}
+
+.container > img:hover{
+  -webkit-transform:scale(2); /* or some other value */
+  transform:scale(2);
 }
