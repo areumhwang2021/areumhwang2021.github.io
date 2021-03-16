@@ -42,8 +42,8 @@ body{
   display: block;
   color: black;
   padding: 10px;
-  margin-left: 185px;
-  margin-right: 185px;
+  margin-left: 170px;
+  margin-right: 165px;
 
   text-decoration: none;
   font-family: "SeventyTwo-Pixel";
@@ -156,4 +156,9 @@ img{
 .prev:hover, .next:hover{
   color: white;
   opacity: 1;
+}
+
+.copyright{
+  transform: scaleY(1.2);
+  color: grey;
 }
