@@ -1,3 +1,8 @@
+@media (min-width: 1170px){
+  P {
+  font-size: 12px;
+  }
+}
 
 
 body{
@@ -13,28 +18,45 @@ body{
     background-color: white;
     position: fixed;
     top: 0;
+    left: 0;
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
+#header ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#header ul li{
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+
+#header ul li a{
+  padding: 10px 180px;
+  display: block;
+  text-align: center;
+}
 
 #header a{
-  float: left;
-  display: block;
-  color: black;
-  padding: 10px;
-  margin-left: 170px;
-  margin-right: 165px;
-
   text-decoration: none;
   font-family: "SeventyTwo-Pixel";
   font-size: 13px;
-  text-align: center;
+  /* text-align: center; */
+  letter-spacing: 0.3px;
+  color: black;
+
 }
 
 #header a:hover{
   color: white;
   text-shadow: 1px 1px 10px black;
 }
+
 
 
 .introduce {
@@ -80,13 +102,13 @@ body{
 /* <!-- index3 --> */
 
 img{
-  width: 270px;
+  width: 24%;
   height: auto;
 
   transition:transform 0.25s ease;
 }
 
 .container > img:hover{
-  -webkit-transform:scale(2); /* or some other value */
-  transform:scale(2);
+  -webkit-transform:scale(1.5); /* or some other value */
+  transform:scale(1.5);
 }
