@@ -19,6 +19,9 @@ html{
   overflow-x: hidden;
 }
 
+P{
+  font-size: 5px;
+
 ::-webkit-scrollbar{
   width: 0px;
   display: none;
